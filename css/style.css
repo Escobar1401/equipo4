@@ -16,3 +16,41 @@
 .contenedor > :nth-child(2){
     border: inherit;
 }
+.divisionDerecha{
+    height: 100vh;
+    width: 50vw;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.divisionDerecha >:nth-child(2){
+    border: inherit;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.cuadro{
+    border: 1px solid black;
+    width: 30vw;
+    height: 10vh;
+    margin: auto;
+    display: grid;
+}
+.cuadro > :nth-child(1){
+    border: inherit;
+    height: 100%;
+    width: 80px;
+}
+.cuadrito-r{
+    translate: 315px;
+}
+.circulo{
+    border: inherit;
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    margin: 5px auto;
+}
+.space1{
+    text-align: center;
+}
