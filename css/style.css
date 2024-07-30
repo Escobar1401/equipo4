@@ -63,4 +63,12 @@
     width: 100px;
     height: 92px;
 }
+.circulo {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
 
