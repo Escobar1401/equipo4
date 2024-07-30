@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.contenedor > :nth-child(1){
+    border: inherit;
+}
+.contenedor > :nth-child(2){
+    border: inherit;
+}
