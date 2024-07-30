@@ -26,6 +26,7 @@
     grid-row: span 2 ;
     grid-template-rows: 1fr 1fr;
 }
+
 .contenedor > :nth-child(1) > :nth-child(1) > :nth-child(1){
     border: inherit;
     height: 80px;
