@@ -16,3 +16,20 @@
 .contenedor > :nth-child(2){
     border: inherit;
 }
+
+.divisionDerecha{
+    height: 100vh;
+    width: 50vw;
+    display: grid;
+    grid-template-rows: 1fr 3fr ;
+}
+.divisionDerecha > :nth-child(1){
+    text-align: center;
+    font-size: 200%;
+    margin: 10%;
+}
+
+.divisionDerecha > :nth-child(2){
+    border: inherit;
+}
+
